@@ -1,12 +1,3 @@
-$('.characters').on('click', function(){
-  
-    if ($(this).parent().attr('class') === 'div1'){
-       
-        $('.div2').append(this)
-        
-        $('.div3').append($('#div1').children())
-    } 
-
 
 isPlayerSet = false;
 
@@ -37,6 +28,18 @@ function setupPlayers (character){
 	}
 }
 
-//move to attack
+/*
+$('.characters').on('click', function(){
+  
+    if ($(this).parent().attr('class') === 'divone'){
+       
+        $('.divtwo').append(this)
+        
+        $('.divethree').append($('#divone').children())
+    } 
 
+ if ($(this).parent().attr('class') === 'divthree') && $('divfour').children().is('.character') === false{
+        
+        $('.divfour').append(this)
+    } 
 
