@@ -1,0 +1,45 @@
+body, html{
+	background-color: pink;
+	background-image: url("bgmonsters.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 37px;
+	color:#2bb46d;
+    
+}
+h1{
+	color:#000000;
+	font-size:45px;
+}
+.header{
+	text-align: center;
+	width: 110%;
+	font-size: 70px;
+}
+.images {
+	float:left;
+	border:2px solid;
+	margin: 4px;
+	text-align: center;
+	color:#000000;
+	font-size: 40px;
+	background-color: rgba(255,255,255,0.9);
+}
+button{
+	width:110px;
+	color:#2bb46d;
+
+}
+/* Clears all parent divs */
+.divtwo, .divthree, .divfour, .divfive, .divsix, .reset{
+	clear:both;
+}
+.divone, .divtwo, .divthree, .divfour, .divfive, .divsix, .reset{
+	margin-left:2%;
+}
+.divthree 
+
+
+
+
