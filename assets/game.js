@@ -1,3 +1,13 @@
+$('.characters').on('click', function(){
+  
+    if ($(this).parent().attr('class') === 'div1'){
+       
+        $('.div2').append(this)
+        
+        $('.div3').append($('#div1').children())
+    } 
+
+
 isPlayerSet = false;
 
 //move to character
